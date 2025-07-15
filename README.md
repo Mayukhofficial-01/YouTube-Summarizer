@@ -21,22 +21,7 @@ Watch a demonstration of the YouTube Transcript Summarizer in action:
 - A valid Gemini API key (set as `GEMINI_API_KEY` in a `.env` file)
 - Internet connection for API requests
 
-## Installation
-1. Clone the repository:
-   ```bash
-   git clone <repository-url>
-   cd youtube-transcript-summarizer
-   ```
 
-2. Install dependencies:
-   ```bash
-   pip install youtube-transcript-api google-genai python-dotenv fastapi uvicorn pydantic
-   ```
-
-3. Create a `.env` file in the project root and add your Gemini API key:
-   ```env
-   GEMINI_API_KEY=your-api-key-here
-   ```
 
 ## Usage
 ### Running the Application
