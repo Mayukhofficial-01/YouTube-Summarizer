@@ -3,6 +3,11 @@
 ## Overview
 This project is a FastAPI-based application that fetches YouTube video transcripts using the `youtube-transcript-api` and generates concise summaries using the Gemini AI model from Google. The summarized output is returned in JSON format and saved to a file (`summary.json`).
 
+## Demo Video
+Watch a demonstration of the YouTube Transcript Summarizer in action:  
+[Demo Video]: https://drive.google.com/file/d/1nt-KYJHoBMWUfHPqrJqJ2XiJb8-KWgxT/view?usp=drive_link 
+
+
 ## Features
 - Extracts YouTube video IDs from URLs
 - Fetches video transcripts using `youtube-transcript-api`
@@ -60,10 +65,8 @@ This project is a FastAPI-based application that fetches YouTube video transcrip
 }
 ```
 
-## Demo Video
-Watch a demonstration of the YouTube Transcript Summarizer in action:  
-[Demo Video](https://www.youtube.com/watch?v=placeholder)  
-*Note: Replace the placeholder link with the actual demo video URL once available.*
+
+
 
 ## Project Structure
 ```
